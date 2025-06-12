@@ -1,0 +1,21 @@
+android {
+  lintOptions {
+    lintConfig file("lint.xml")
+    abortOnError false
+    checkReleaseBuilds false
+    checkDependencies false
+  }
+}
+
+ktlint {
+  android = true
+  verbose = false
+  ignoreFailures = false
+  reporters {
+    reporter "html"
+    reporter "checkstyle"
+  }
+  filter {
+    include("**/java/**")
+  }
+}

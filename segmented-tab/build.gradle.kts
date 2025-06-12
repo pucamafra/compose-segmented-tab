@@ -2,6 +2,11 @@ plugins {
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.android.library)
     alias(libs.plugins.composeCompiler)
+    alias(libs.plugins.gradle.ktlint)
+}
+
+apply {
+    from("../lint.gradle")
 }
 
 android {
