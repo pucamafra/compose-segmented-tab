@@ -14,7 +14,7 @@ private val defaultBorderWidth = 1.dp
 private val defaultBorderColor = Color.LightGray
 private val defaultSegmentPadding = PaddingValues(all = 4.dp)
 private val defaultSegmentBackgroundColor = Color.LightGray
-private val defaultSelectedSegmentedBackgroundColor = Color.White
+private val defaultSelectedSegmentBackgroundColor = Color.White
 private val defaultSelectedSegmentTextColor = Color.Black
 private val defaultUnselectedSegmentTextColor = Color.DarkGray
 private val defaultContentPadding: PaddingValues =
@@ -34,7 +34,7 @@ object SegmentedTabDefaults {
           borderColor = defaultBorderColor,
           segmentPadding = defaultSegmentPadding,
           segmentBackgroundColor = defaultSegmentBackgroundColor,
-          selectedSegmentedBackgroundColor = defaultSelectedSegmentedBackgroundColor,
+          selectedSegmentBackgroundColor = defaultSelectedSegmentBackgroundColor,
           selectedSegmentTextStyle = TextStyle.Default,
           unselectedSegmentTextStyle = TextStyle.Default,
           selectedSegmentTextColor = defaultSelectedSegmentTextColor,
@@ -52,7 +52,7 @@ object SegmentedTabDefaults {
     borderColor: Color = defaultBorderColor,
     segmentPadding: PaddingValues = defaultSegmentPadding,
     segmentBackgroundColor: Color = defaultSegmentBackgroundColor,
-    selectedSegmentedBackgroundColor: Color = defaultSelectedSegmentedBackgroundColor,
+    selectedSegmentBackgroundColor: Color = defaultSelectedSegmentBackgroundColor,
     selectedSegmentTextStyle: TextStyle = TextStyle.Default,
     unselectedSegmentTextStyle: TextStyle = TextStyle.Default,
     selectedSegmentTextColor: Color = defaultSelectedSegmentTextColor,
@@ -65,7 +65,7 @@ object SegmentedTabDefaults {
     borderColor = borderColor,
     segmentPadding = segmentPadding,
     segmentBackgroundColor = segmentBackgroundColor,
-    selectedSegmentedBackgroundColor = selectedSegmentedBackgroundColor,
+    selectedSegmentBackgroundColor = selectedSegmentBackgroundColor,
     selectedSegmentTextStyle = selectedSegmentTextStyle,
     unselectedSegmentTextStyle = unselectedSegmentTextStyle,
     selectedSegmentTextColor = selectedSegmentTextColor,

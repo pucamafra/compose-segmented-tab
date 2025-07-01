@@ -19,7 +19,7 @@ data class SegmentedTabAppearance(
   val borderColor: Color,
   val segmentPadding: PaddingValues,
   val segmentBackgroundColor: Color,
-  val selectedSegmentedBackgroundColor: Color,
+  val selectedSegmentBackgroundColor: Color,
   val selectedSegmentTextStyle: TextStyle,
   val unselectedSegmentTextStyle: TextStyle,
   val selectedSegmentTextColor: Color,

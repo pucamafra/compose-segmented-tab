@@ -44,7 +44,7 @@ You can customize the component according to the attributes shown below.
 | borderColor|Default Color.LightGray. Border color of the segment container |
 | segmentPadding|Default PaddingValues(all = 4.dp). Padding between segment item and its container. See image below  | 
 | segmentBackgroundColor|Default Color.LightGray. Background color of the segment container |
-| selectedSegmentedBackgroundColor|Default Color.White. Background color of the selected segment |
+| selectedSegmentBackgroundColor|Default Color.White. Background color of the selected segment |
 | selectedSegmentTextStyle|It is optional. But if you want to customize the font you must to set a path to the font file |
 | unselectedSegmentTextStyle|It is optional. But if you want to customize the font you must to set a path to the font file |
 | selectedSegmentTextColor|Default Color.Black. Text color of the selected segment |

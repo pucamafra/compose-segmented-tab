@@ -34,7 +34,7 @@ fun SegmentedTab(
 ) {
   val segments = state.segments
   val selectedIndexOffset by animateFloatAsState(state.selectedSegment.toFloat())
-  val containerColor = appearance.selectedSegmentedBackgroundColor
+  val containerColor = appearance.selectedSegmentBackgroundColor
   val segmentPadding = appearance.segmentPadding
   val segmentShape = appearance.segmentShape
   val segmentBackgroundColor = appearance.segmentBackgroundColor
