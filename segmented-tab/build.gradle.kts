@@ -51,8 +51,8 @@ publishing {
         register<MavenPublication>("release") {
             afterEvaluate {
                 from(components["release"])
-                groupId = "com.marlonmafra"
-                artifactId = "segmentedTab"
+                groupId = "com.github.pucamafra"
+                artifactId = "compose-segmented-tab"
                 version = "0.0.2"
             }
         }

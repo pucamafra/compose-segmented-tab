@@ -37,9 +37,11 @@ internal fun LookaheadScope.SelectedSegment(color: Color, shape: Shape) {
 private fun SelectedSegmentPreview() {
     val segmentedShape = RoundedCornerShape(8.dp)
     val segmentedBackgroundColor = Color.LightGray
-    Column(modifier = Modifier
-        .padding(PaddingValues(5.dp))
-        .height(50.dp)) {
+    Column(
+        modifier = Modifier
+            .padding(PaddingValues(5.dp))
+            .height(50.dp)
+    ) {
         LookaheadScope {
             Layout(
                 content = {

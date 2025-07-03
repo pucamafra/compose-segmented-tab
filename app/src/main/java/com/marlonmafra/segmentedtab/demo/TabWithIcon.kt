@@ -58,7 +58,7 @@ fun TabWithIcon() {
             SegmentedTab(
                 state = SegmentedTabState(
                     segments = segments,
-                    selectedSegment = selectedSegment,
+                    selectedSegment = selectedSegment
                 ),
                 action = action
             )

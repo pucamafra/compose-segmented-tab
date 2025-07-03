@@ -1,12 +1,15 @@
 # compose-segmented-tab
+[![](https://jitpack.io/v/pucamafra/compose-segmented-tab.svg)](https://jitpack.io/#pucamafra/compose-segmented-tab)
 
 
+## Min SDK
+- 24
 
-## Target platform
-- TBD
+## Target SDK
+- 36
 
 ## Latest version
-- Version TBD
+- Version 0.0.2
 
 
 ## Setup
@@ -17,7 +20,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        //TBD
+        maven { url = uri("https://jitpack.io") }
         ...
     }
 }
@@ -27,7 +30,7 @@ dependencyResolutionManagement {
 3. Add `compose-segmented-tab` dependency
 ```groovy
 dependencies {
-    // TBD
+    implementation("com.github.pucamafra:compose-segmented-tab:latestVersion")
 }
 ```
 

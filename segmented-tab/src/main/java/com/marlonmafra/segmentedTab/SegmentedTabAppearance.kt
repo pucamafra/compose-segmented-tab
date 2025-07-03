@@ -24,7 +24,7 @@ data class SegmentedTabAppearance(
   val unselectedSegmentTextStyle: TextStyle,
   val selectedSegmentTextColor: Color,
   val unselectedSegmentTextColor: Color,
-  val contentPadding: PaddingValues,
+  val contentPadding: PaddingValues
 ) {
 
   @Stable

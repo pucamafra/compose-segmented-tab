@@ -8,7 +8,7 @@ import androidx.compose.ui.graphics.Color
 private val ColorScheme = lightColorScheme(
     primary = Color.DarkGray,
     surface = Color(79, 169, 117),
-    onSurface = Color.White,
+    onSurface = Color.White
 )
 
 @Composable

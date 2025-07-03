@@ -51,7 +51,6 @@ internal fun RowScope.Segment(
             .wrapContentWidth(),
         verticalAlignment = Alignment.CenterVertically
     ) {
-
         icon?.let {
             Icon(
                 modifier = Modifier.padding(end = dimensionResource(R.dimen.icon_padding_end)),

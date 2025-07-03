@@ -41,7 +41,7 @@ android {
 }
 
 dependencies {
-    implementation(project(mapOf("path" to ":segmented-tab")))
+    implementation(libs.compose.segmented.tab)
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.material3.android)
     implementation(libs.androidx.ui.tooling.preview.android)

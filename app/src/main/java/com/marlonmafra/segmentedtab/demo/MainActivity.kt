@@ -65,9 +65,9 @@ class MainActivity : ComponentActivity() {
                                     )
                                 }
                             }
-                        },
+                        }
                     )
-                },
+                }
             ) { paddingValue ->
                 NavHost(
                     modifier = Modifier.padding(paddingValue),
@@ -92,7 +92,6 @@ class MainActivity : ComponentActivity() {
                 }
             }
         })
-
     }
 
     private fun NavBackStackEntry?.isExampleListRoute(): Boolean {

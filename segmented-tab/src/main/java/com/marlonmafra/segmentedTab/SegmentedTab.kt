@@ -123,7 +123,6 @@ private fun SegmentedTabPreview() {
 
   val action = SegmentedTabAction(onSegmentSelected = {
     selectedSegment = it
-
   })
   val segments = listOf(
     SegmentedTabData(

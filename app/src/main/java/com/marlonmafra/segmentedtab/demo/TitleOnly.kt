@@ -35,15 +35,15 @@ fun TitleOnly() {
         val segments = listOf(
             SegmentedTabData(
                 type = "Title1",
-                title = "Title1",
+                title = "Title1"
             ),
             SegmentedTabData(
                 type = "Title2",
-                title = "Title2",
+                title = "Title2"
             ),
             SegmentedTabData(
                 type = "Title3",
-                title = "Title3",
+                title = "Title3"
             )
         )
 
@@ -51,7 +51,7 @@ fun TitleOnly() {
             SegmentedTab(
                 state = SegmentedTabState(
                     segments = segments,
-                    selectedSegment = selectedSegment,
+                    selectedSegment = selectedSegment
                 ),
                 action = action
             )
