@@ -53,7 +53,7 @@ publishing {
                 from(components["release"])
                 groupId = "com.marlonmafra"
                 artifactId = "segmentedTab"
-                version = "0.0.1"
+                version = "0.0.2"
             }
         }
     }
