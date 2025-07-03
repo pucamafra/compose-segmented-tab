@@ -12,11 +12,11 @@ apply {
 
 android {
     namespace = "com.marlonmafra.segmentedTab"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         minSdk = 24
-        testOptions.targetSdk = 35
+        testOptions.targetSdk = 36
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -60,12 +60,8 @@ publishing {
 }
 
 dependencies {
-    val composeBom = platform(libs.androidx.compose.bom)
-    implementation(composeBom)
-
+    implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.material3.android)
-    implementation(libs.androidx.core.ktx)
-    implementation(libs.androidx.appcompat)
 
     debugImplementation(libs.androidx.ui.tooling.preview.android)
     debugImplementation(libs.androidx.ui.tooling)

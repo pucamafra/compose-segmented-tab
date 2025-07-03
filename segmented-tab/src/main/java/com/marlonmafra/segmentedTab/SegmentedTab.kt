@@ -64,7 +64,7 @@ fun SegmentedTab(
         val (selectedSegmentMeasurable, segmentsMeasurable) = measurables
 
         val segmentsPlaceable = segmentsMeasurable.measure(constraints)
-        val segmentedBoxPlaceable = selectedSegmentMeasurable.measure(
+        val selectedSegmentPlaceable = selectedSegmentMeasurable.measure(
           Constraints.fixed(
             width = segmentsPlaceable.width / segments.size,
             height = segmentsPlaceable.height
@@ -74,7 +74,7 @@ fun SegmentedTab(
         layout(segmentsPlaceable.width, segmentsPlaceable.height) {
           val segmentWidth = segmentsPlaceable.width / segments.size
 
-          segmentedBoxPlaceable.placeRelative(
+          selectedSegmentPlaceable.placeRelative(
             x = (selectedIndexOffset * segmentWidth).toInt(),
             y = 0
           )

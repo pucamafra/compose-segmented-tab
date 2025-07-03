@@ -41,8 +41,6 @@ android {
 }
 
 dependencies {
-    val composeBom = platform(libs.androidx.compose.bom)
-    implementation(composeBom)
     implementation(project(mapOf("path" to ":segmented-tab")))
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.material3.android)
