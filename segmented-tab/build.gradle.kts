@@ -3,6 +3,7 @@ plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.composeCompiler)
     alias(libs.plugins.gradle.ktlint)
+    id("maven-publish")
 }
 
 apply {
@@ -28,12 +29,33 @@ android {
             )
         }
     }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
     }
+
     kotlinOptions {
         jvmTarget = "17"
+    }
+
+    publishing {
+        singleVariant("release") {
+            withSourcesJar()
+        }
+    }
+}
+
+publishing {
+    publications {
+        register<MavenPublication>("release") {
+            afterEvaluate {
+                from(components["release"])
+                groupId = "com.marlonmafra"
+                artifactId = "segmentedTab"
+                version = "0.0.1"
+            }
+        }
     }
 }
 
